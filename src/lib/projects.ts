@@ -12,23 +12,23 @@ export interface ProjectConfig {
 
 const projects: ProjectConfig[] = [
 	{
-		id: 'hembilder',
-		tag: 'SvelteKit',
-		title: 'Hembilder',
-		shortDescription: 'Bokningssystem och tjänster för fotografer.',
+		id: 'scrapcad',
+		tag: 'Node.js',
+		title: 'ScrapCad',
+		shortDescription: 'Lagerbaserat voxelmodelleringsprogram.',
 		description:
-			'Ett bokningssystem och tjänster för fotografer att hantera sina kunder och bokningar enkelt.',
-		thumbnail: '/projects/hembilder/thumbnail.webp',
+			'Ett lagerbaserat voxelmodelleringsprogram för att skapa 3D-modeller av kuber. Programmet integrerades tidigare mot spelet Scrap Mechanic för att skapa anpassade modeller och objekt i spelet. Programmet är pluginbaserat där både selektering och generering av voxlar sker via plugins.',
+		thumbnail: '/projects/scrapcad/thumbnail.webp',
 		gallery: [
-			'/projects/hembilder/1.webp',
-			'/projects/hembilder/2.webp',
-			'/projects/hembilder/3.webp',
-			'/projects/hembilder/4.webp'
+			'/projects/scrapcad/1.webp',
+			'/projects/scrapcad/2.webp',
+			'/projects/scrapcad/3.webp',
+			'/projects/scrapcad/4.webp'
 		],
-		liveDemo: 'https://hembilder.se'
+		githubRepo: 'https://github.com/Octaphous/Scrapcad'
 	},
 	{
-		id: 'tusentio-cms',
+		id: 'tusentiocms',
 		tag: 'SvelteKit',
 		title: 'Tusentio CMS',
 		shortDescription: 'Kundanpassat innehållshanteringssystem.',
@@ -40,7 +40,35 @@ const projects: ProjectConfig[] = [
 			'/projects/tusentiocms/2.webp',
 			'/projects/tusentiocms/3.webp',
 			'/projects/tusentiocms/4.webp'
-		]
+		],
+		liveDemo: 'https://kund.tusent.io'
+	},
+	{
+		id: 'hembilder',
+		tag: 'SvelteKit',
+		title: 'Hembilder',
+		shortDescription: 'Bokningssystem och tjänster för mäklarfotografering.',
+		description:
+			'Ett bokningssystem och tjänster för mäklarfotografer att hantera sina kunder och bokningar enkelt.',
+		thumbnail: '/projects/hembilder/thumbnail.webp',
+		gallery: [
+			'/projects/hembilder/1.webp',
+			'/projects/hembilder/2.webp',
+			'/projects/hembilder/3.webp',
+			'/projects/hembilder/4.webp'
+		],
+		liveDemo: 'https://hembilder.se'
+	},
+	{
+		id: 'lucasfrisk',
+		tag: 'Nuxt',
+		title: 'Lucas Frisk',
+		shortDescription: 'Portfoliosida för fotograferingstjänster.',
+		description:
+			'En portfoliosida för fotografen Lucas Frisk för att visa upp sina tjänster och tidigare arbeten.',
+		thumbnail: '/projects/lucasfrisk/thumbnail.webp',
+		gallery: ['/projects/lucasfrisk/1.webp', '/projects/lucasfrisk/2.webp'],
+		liveDemo: 'https://lucasfrisk.se'
 	}
 ];
 
