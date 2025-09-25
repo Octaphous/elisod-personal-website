@@ -1,5 +1,6 @@
 <script lang="ts">
 	import ProjectPageBanner from '$lib/components/ProjectPageBanner.svelte';
+	import ProjectPageFollowHeader from '$lib/components/ProjectPageFollowHeader.svelte';
 	import ProjectPageGallery from '$lib/components/ProjectPageGallery.svelte';
 	import ProjectPageInfo from '$lib/components/ProjectPageInfo.svelte';
 	import type { PageData } from './$types';
@@ -12,6 +13,7 @@
 </script>
 
 <header>
+	<ProjectPageFollowHeader />
 	<ProjectPageBanner image={data.project.thumbnail} />
 </header>
 
