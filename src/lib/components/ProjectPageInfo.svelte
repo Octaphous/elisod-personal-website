@@ -31,14 +31,7 @@
 		</div>
 	</div>
 	<p>
-		{project.description} Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores pariatur
-		possimus alias natus deleniti sit aliquid fugit nam, temporibus accusamus explicabo quasi inventore
-		quidem neque, recusandae amet adipisci nisi repellendus assumenda unde voluptas illo dolorem. Deleniti,
-		reprehenderit! Tenetur iste a ipsa earum esse nesciunt culpa sit, quia fugiat molestias voluptatum,
-		magnam doloribus laudantium, natus neque. Sint harum molestias officia perferendis eaque corporis
-		vel, rerum excepturi quia odit temporibus labore minus magni facere quasi consequuntur fugit aliquam
-		tempore provident quos id! Adipisci culpa voluptatum, fuga est minima vero ducimus cupiditate illum
-		facere ipsum consectetur consequuntur necessitatibus dolor corporis tenetur dolores nulla.
+		{project.description}
 	</p>
 </div>
 
