@@ -12,6 +12,7 @@
 
 <style lang="scss">
 	@use '$lib/scss/variables.scss' as *;
+	@use '$lib/scss/mixins.scss' as *;
 
 	div {
 		background: rgb(240, 240, 240);
@@ -20,10 +21,14 @@
 		justify-content: center;
 		align-items: end;
 		overflow: hidden;
-		padding: 0 2rem;
+		padding-inline: 1rem;
+
+		@include desktop {
+			padding-inline: 2rem;
+		}
 
 		img {
-			max-width: 32rem;
+			max-width: 30rem;
 			width: 100%;
 			border-radius: $borderRadius $borderRadius 0 0;
 			opacity: 0;

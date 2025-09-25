@@ -42,7 +42,11 @@
 	@use '$lib/scss/mixins.scss' as *;
 
 	.hero-section {
-		padding-top: 8rem;
+		padding-top: 4rem;
+
+		@include desktop {
+			padding-top: 8rem;
+		}
 
 		& > h1 {
 			@include heading;
