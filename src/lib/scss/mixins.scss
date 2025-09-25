@@ -1,0 +1,18 @@
+@use 'variables.scss' as *;
+
+@mixin desktop {
+	@media (min-width: $desktopBreakpoint) {
+		@content;
+	}
+}
+
+@mixin heading {
+	font-family: $fontFamily;
+	font-size: $fontSizeHeading;
+}
+
+@mixin paragraph {
+	font-family: $fontFamily;
+	line-height: $paragraphLineHeight;
+	color: $colorTextGray;
+}

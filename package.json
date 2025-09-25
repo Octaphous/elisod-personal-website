@@ -35,6 +35,12 @@
 	"pnpm": {
 		"onlyBuiltDependencies": [
 			"esbuild"
+		],
+		"ignoredBuiltDependencies": [
+			"@parcel/watcher"
 		]
+	},
+	"dependencies": {
+		"sass": "^1.93.2"
 	}
 }
