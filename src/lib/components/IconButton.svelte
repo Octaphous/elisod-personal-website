@@ -21,6 +21,7 @@
 		display: flex;
 		gap: 0.5rem;
 		align-items: center;
+		justify-content: center;
 		padding: 0.75rem 1rem;
 		background: transparent;
 		border: 0.1rem solid #000;

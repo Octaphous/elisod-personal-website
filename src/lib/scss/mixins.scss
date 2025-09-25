@@ -6,6 +6,13 @@
 	}
 }
 
+@mixin wrapper {
+	max-width: 90rem;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
 @mixin heading {
 	font-family: $fontFamily;
 	font-size: $fontSizeHeading;

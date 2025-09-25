@@ -5,8 +5,8 @@
 </script>
 
 <section class="hero-section">
-	<h1>Hej, jag heter Elias Söderlund</h1>
-	<p>Jag gillar media, design och utveckling av nya lösningar.</p>
+	<h1>Elias Söderlund</h1>
+	<p>Jag gillar att arbeta med media, design och utveckling av nya digitala lösningar.</p>
 
 	<ul class="link-list">
 		<li>

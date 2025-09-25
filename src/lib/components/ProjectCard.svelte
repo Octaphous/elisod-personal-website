@@ -1,20 +1,20 @@
 <script lang="ts">
+	import type { ProjectConfig } from '$lib/projects';
+
 	interface Props {
-		title: string;
-		description: string;
-		thumbnail: string;
+		project: ProjectConfig;
 	}
 
-	const props: Props = $props();
+	const { project }: Props = $props();
 </script>
 
 <div class="project-card">
 	<div class="thumbnail">
-		<img src={props.thumbnail} alt={`Projektbild för projektet "${props.title}"`} />
-		<span class="tag">ASP.NET</span>
+		<img src={project.thumbnail} alt={`Projektbild för projektet "${project.title}"`} />
+		<span class="tag">{project.tag}</span>
 	</div>
-	<h3>{props.title}</h3>
-	<p>{props.description}</p>
+	<h3>{project.title}</h3>
+	<p>{project.shortDescription}</p>
 </div>
 
 <style lang="scss">
@@ -39,16 +39,19 @@
 
 	.thumbnail {
 		position: relative;
-		height: 20rem;
-		background: rgb(220, 220, 220);
+		aspect-ratio: 16/9;
+		background: rgb(240, 240, 240);
 		border-radius: $borderRadius;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: end;
 
 		img {
-			width: 100%;
-			height: 100%;
+			height: 80%;
 			display: block;
 			object-fit: cover;
-			border-radius: $borderRadius;
+			border-radius: $borderRadius $borderRadius 0 0;
 		}
 
 		.tag {

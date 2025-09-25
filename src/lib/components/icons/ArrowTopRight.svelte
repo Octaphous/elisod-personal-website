@@ -1,0 +1,9 @@
+<script lang="ts">
+	import '$lib/scss/icons.scss';
+</script>
+
+<svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" fill="currentColor" viewBox="0 0 24 24"
+	><title>arrow-top-right</title><path
+		d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"
+	/></svg
+>

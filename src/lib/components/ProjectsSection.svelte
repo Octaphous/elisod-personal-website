@@ -9,12 +9,8 @@
 	<ul>
 		{#each projects as project}
 			<li>
-				<a href="https://example.com/projekt-1">
-					<ProjectCard
-						thumbnail={project.thumbnail}
-						title={project.title}
-						description={project.shortDescription}
-					/>
+				<a href={`/${project.id}`}>
+					<ProjectCard {project} />
 				</a>
 			</li>
 		{/each}
@@ -35,8 +31,17 @@
 	ul {
 		margin-top: 2rem;
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr;
 		column-gap: 2rem;
 		row-gap: 4rem;
+
+		@include desktop {
+			grid-template-columns: 1fr 1fr;
+		}
+
+		li {
+			width: 100%;
+			overflow: hidden;
+		}
 	}
 </style>

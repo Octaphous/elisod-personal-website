@@ -1,12 +1,21 @@
 <script>
 	import HeroSection from '$lib/components/HeroSection.svelte';
 	import ProjectsSection from '$lib/components/ProjectsSection.svelte';
-	import Wrapper from '$lib/components/Wrapper.svelte';
 </script>
 
-<Wrapper>
-	<main>
-		<HeroSection />
-		<ProjectsSection />
-	</main>
-</Wrapper>
+<header>
+	<HeroSection />
+</header>
+
+<main>
+	<ProjectsSection />
+</main>
+
+<style lang="scss">
+	@use '$lib/scss/mixins.scss' as *;
+
+	header,
+	main {
+		@include wrapper;
+	}
+</style>
