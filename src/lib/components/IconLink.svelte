@@ -4,20 +4,21 @@
 	interface Props {
 		icon: Component;
 		children?: Snippet;
+		href: string;
 	}
 
 	const props: Props = $props();
 </script>
 
-<button class="icon-button">
+<a href={props.href} class="icon-link">
 	<span>{@render props.children?.()}</span>
 	<props.icon />
-</button>
+</a>
 
 <style lang="scss">
 	@use '$lib/scss/variables.scss' as *;
 
-	button {
+	.icon-link {
 		display: flex;
 		gap: 0.5rem;
 		align-items: center;

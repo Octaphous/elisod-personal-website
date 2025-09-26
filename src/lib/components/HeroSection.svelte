@@ -1,7 +1,7 @@
 <script>
 	import ArrowDown from './icons/ArrowDown.svelte';
 	import Github from './icons/Github.svelte';
-	import IconButton from './IconButton.svelte';
+	import IconLink from './IconLink.svelte';
 </script>
 
 <section class="hero-section">
@@ -25,14 +25,10 @@
 
 	<ul class="button-list">
 		<li>
-			<a href="#projects">
-				<IconButton icon={ArrowDown}>Mina projekt</IconButton>
-			</a>
+			<IconLink href="#projects" icon={ArrowDown}>Mina projekt</IconLink>
 		</li>
 		<li>
-			<a href="https://github.com/Octaphous" target="_blank" rel="noopener noreferrer">
-				<IconButton icon={Github}>GitHub</IconButton>
-			</a>
+			<IconLink href="https://github.com/Octaphous" icon={Github}>GitHub</IconLink>
 		</li>
 	</ul>
 </section>

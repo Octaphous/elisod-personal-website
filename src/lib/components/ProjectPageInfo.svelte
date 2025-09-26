@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { ProjectConfig } from '$lib/projects';
-	import IconButton from './IconButton.svelte';
+	import IconLink from './IconLink.svelte';
 	import ArrowDown from './icons/ArrowDown.svelte';
 	import ArrowTopRight from './icons/ArrowTopRight.svelte';
 	import Github from './icons/Github.svelte';
@@ -18,15 +18,11 @@
 
 		<div class="project-actions">
 			{#if project.githubRepo}
-				<a href={project.githubRepo} target="_blank" rel="noopener noreferrer">
-					<IconButton icon={Github}>Github</IconButton>
-				</a>
+				<IconLink href={project.githubRepo} icon={Github}>Github</IconLink>
 			{/if}
 
 			{#if project.liveDemo}
-				<a href={project.liveDemo} target="_blank" rel="noopener noreferrer">
-					<IconButton icon={ArrowTopRight}>Besök</IconButton>
-				</a>
+				<IconLink href={project.liveDemo} icon={ArrowTopRight}>Besök</IconLink>
 			{/if}
 		</div>
 	</div>

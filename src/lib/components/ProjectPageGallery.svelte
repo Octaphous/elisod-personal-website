@@ -23,11 +23,11 @@
 	.project-gallery {
 		display: grid;
 		gap: 2rem;
-		grid-template-columns: 1fr;
-		padding-top: 4rem;
+		grid-template-columns: minmax(0, 1fr);
+		padding-top: 3rem;
 
 		@include desktop {
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 
 		img {
