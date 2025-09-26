@@ -58,8 +58,8 @@
 			position: absolute;
 			top: 1rem;
 			right: 1rem;
-			background: rgba(0, 0, 0, 0.7);
-			color: #fff;
+			background: rgb(255, 255, 255);
+			color: #000;
 			padding: 0.25rem 0.5rem;
 			border-radius: $borderRadius;
 			font-size: 0.75rem;

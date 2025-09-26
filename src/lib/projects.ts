@@ -43,6 +43,32 @@ const projects: ProjectConfig[] = [
 		],
 		liveDemo: 'https://kund.tusent.io'
 	},
+
+	{
+		id: 'memoatlas',
+		tag: 'C# ASP.NET',
+		title: 'MemoAtlas',
+		shortDescription: 'Journal, spårning och statistik.',
+		description:
+			'Ett pågående projekt för att skapa en plattform för journalföring, spårning och statistik av olika aktiviteter och vanor. Användaren kan skapa egna "promptar" för att anpassa plattformen efter vad de vill spåra.',
+		thumbnail: '/projects/memoatlas/thumbnail.webp',
+		gallery: [
+			'/projects/memoatlas/1.webp',
+			'/projects/memoatlas/2.webp',
+			'/projects/memoatlas/3.webp',
+			'/projects/memoatlas/4.webp'
+		]
+	},
+	{
+		id: 'max',
+		tag: 'C# WPF',
+		title: 'Max',
+		shortDescription: 'Ljudspelare för Windows.',
+		description:
+			'En ljudspelare för Windows där användaren kan skapa egna spellistor, eller "bibliotek", med låtar. Programmet har stöd för att spela upp musik i bakgrunden med olika spellägen.',
+		thumbnail: '/projects/max/thumbnail.webp',
+		gallery: ['/projects/max/1-screen.webp', '/projects/max/2-screen.webp']
+	},
 	{
 		id: 'hembilder',
 		tag: 'SvelteKit',
@@ -58,6 +84,23 @@ const projects: ProjectConfig[] = [
 			'/projects/hembilder/4-screen.webp'
 		],
 		liveDemo: 'https://hembilder.se'
+	},
+	{
+		id: 'pleasurablelearning',
+		tag: 'Next.js',
+		title: 'Pleasurable Learning',
+		shortDescription: 'AI-baserad läsplattform för mellanstadieelever.',
+		description:
+			'En läroplattform för mellanstadieelever som gör lärandet roligare och mer engagerande genom interaktiva övningar och spel.',
+		thumbnail: '/projects/pleasurablelearning/thumbnail.webp',
+		gallery: [
+			'/projects/pleasurablelearning/1-screen.webp',
+			'/projects/pleasurablelearning/2-screen.webp',
+			'/projects/pleasurablelearning/3-screen.webp',
+			'/projects/pleasurablelearning/4-screen.webp',
+			'/projects/pleasurablelearning/5-screen.webp',
+			'/projects/pleasurablelearning/6-screen.webp'
+		]
 	},
 	{
 		id: 'lucasfrisk',
