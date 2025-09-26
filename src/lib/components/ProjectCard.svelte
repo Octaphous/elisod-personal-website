@@ -23,7 +23,7 @@
 
 	.project-card {
 		& > h3 {
-			margin-top: 0.75rem;
+			margin-top: 1.25rem;
 			font-weight: 700;
 		}
 

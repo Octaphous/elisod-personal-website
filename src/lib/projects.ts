@@ -20,10 +20,10 @@ const projects: ProjectConfig[] = [
 			'Ett lagerbaserat voxelmodelleringsprogram för att skapa 3D-modeller av kuber. Programmet integrerades tidigare mot spelet Scrap Mechanic för att skapa anpassade modeller och objekt i spelet. Programmet är pluginbaserat där både selektering och generering av voxlar sker via plugins.',
 		thumbnail: '/projects/scrapcad/thumbnail.webp',
 		gallery: [
-			'/projects/scrapcad/1.webp',
-			'/projects/scrapcad/2.webp',
-			'/projects/scrapcad/3.webp',
-			'/projects/scrapcad/4.webp'
+			'/projects/scrapcad/1-screen.webp',
+			'/projects/scrapcad/2-screen.webp',
+			'/projects/scrapcad/3-screen.webp',
+			'/projects/scrapcad/4-screen.webp'
 		],
 		githubRepo: 'https://github.com/Octaphous/Scrapcad'
 	},
@@ -36,10 +36,10 @@ const projects: ProjectConfig[] = [
 			'Ett huvudlöst innehållshanteringssystem byggt från grunden för att kunna byggas om och struktureras efter kundens behov.',
 		thumbnail: '/projects/tusentiocms/thumbnail.webp',
 		gallery: [
-			'/projects/tusentiocms/1.webp',
-			'/projects/tusentiocms/2.webp',
-			'/projects/tusentiocms/3.webp',
-			'/projects/tusentiocms/4.webp'
+			'/projects/tusentiocms/1-screen.webp',
+			'/projects/tusentiocms/2-screen.webp',
+			'/projects/tusentiocms/3-screen.webp',
+			'/projects/tusentiocms/4-screen.webp'
 		],
 		liveDemo: 'https://kund.tusent.io'
 	},
@@ -52,10 +52,10 @@ const projects: ProjectConfig[] = [
 			'Ett bokningssystem och tjänster för mäklarfotografer att hantera sina kunder och bokningar enkelt.',
 		thumbnail: '/projects/hembilder/thumbnail.webp',
 		gallery: [
-			'/projects/hembilder/1.webp',
-			'/projects/hembilder/2.webp',
-			'/projects/hembilder/3.webp',
-			'/projects/hembilder/4.webp'
+			'/projects/hembilder/1-screen.webp',
+			'/projects/hembilder/2-screen.webp',
+			'/projects/hembilder/3-screen.webp',
+			'/projects/hembilder/4-screen.webp'
 		],
 		liveDemo: 'https://hembilder.se'
 	},
@@ -67,7 +67,7 @@ const projects: ProjectConfig[] = [
 		description:
 			'En portfoliosida för fotografen Lucas Frisk för att visa upp sina tjänster och tidigare arbeten.',
 		thumbnail: '/projects/lucasfrisk/thumbnail.webp',
-		gallery: ['/projects/lucasfrisk/1.webp', '/projects/lucasfrisk/2.webp'],
+		gallery: ['/projects/lucasfrisk/1-screen.webp', '/projects/lucasfrisk/2-screen.webp'],
 		liveDemo: 'https://lucasfrisk.se'
 	}
 ];
