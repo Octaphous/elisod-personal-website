@@ -26,9 +26,9 @@
 			{/if}
 		</div>
 	</div>
-	<p>
-		{project.description}
-	</p>
+	{#each project.description as paragraph}
+		<p>{paragraph}</p>
+	{/each}
 </div>
 
 <style lang="scss">
@@ -39,7 +39,7 @@
 
 		& > p {
 			@include paragraph;
-			margin-top: 1.75rem;
+			margin-top: 1.5rem;
 		}
 	}
 
