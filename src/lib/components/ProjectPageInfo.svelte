@@ -62,7 +62,7 @@
 		display: flex;
 		gap: 0.5rem;
 
-		a {
+		& > :global(a) {
 			flex: 1;
 			margin-top: 1.5rem;
 
