@@ -7,7 +7,9 @@
 </script>
 
 <div class="project-banner">
-	<img src={image} alt="Projektbild" />
+	<a href={image} target="_blank" rel="noopener noreferrer">
+		<img src={image} alt="Projektbild" />
+	</a>
 </div>
 
 <style lang="scss">
@@ -15,7 +17,7 @@
 	@use '$lib/scss/mixins.scss' as *;
 
 	div {
-		background: rgb(240, 240, 240);
+		background: $colorImageBackground;
 		height: 20rem;
 		display: flex;
 		justify-content: center;

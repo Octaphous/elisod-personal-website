@@ -40,7 +40,7 @@
 	.thumbnail {
 		position: relative;
 		aspect-ratio: 16/9;
-		background: rgb(240, 240, 240);
+		background: $colorImageBackground;
 		border-radius: $borderRadius;
 		overflow: hidden;
 		display: flex;
