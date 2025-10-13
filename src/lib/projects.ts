@@ -61,7 +61,8 @@ const projects: ProjectConfig[] = [
 			'/projects/memoatlas/2.webp',
 			'/projects/memoatlas/3.webp',
 			'/projects/memoatlas/4.webp'
-		]
+		],
+		githubRepo: 'https://github.com/Octaphous/MemoAtlas-Backend-ASP'
 	},
 	{
 		id: 'max',
